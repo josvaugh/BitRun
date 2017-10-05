@@ -1,0 +1,6 @@
+proj: Bit_Run.c
+	gcc -o bitrun Bit_Run.c -lncurses
+
+Bit_Run.o: Bit_Run.c
+	gcc -c Bit_Run.c
+
