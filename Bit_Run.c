@@ -1,4 +1,3 @@
-//Jeremy Guilloty, Kayden Gillenwater, Joseph Vaughn
 //to compile: gcc -o bitrun Bit_Run.c -lncurses
 #include <stdio.h>
 #include<stdlib.h>
@@ -334,9 +333,9 @@ char answer;
         printf("####################################################\n");
         printf("                        BitRun                     \n ");
         printf("####################################################\n");
-        printf("                 ようこそ        	\n");
-        printf("S -> 始める        I -> インストラクション\n ");
-        printf("L -> 言語           E -> 出る  \n");
+        printf("                 ã‚ˆã†ã“ã        	\n");
+        printf("S -> å§‹ã‚ã‚‹        I -> ã‚¤ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚·ãƒ§ãƒ³\n ");
+        printf("L -> è¨€èªž           E -> å‡ºã‚‹  \n");
 
 
 	getchar();
@@ -366,10 +365,10 @@ void menu_languages_japanese(){
 char answer;
 
         printf("##################################################\n");
-        printf("         言語を決めてください   \n");
-        printf("S -> スペイン語    J -> 日本語     \n");
-        printf("F -> フランス語   E -> 英語      \n");
-        printf("B -> 戻る                                         \n");
+        printf("         è¨€èªžã‚’æ±ºã‚ã¦ãã ã•ã„   \n");
+        printf("S -> ã‚¹ãƒšã‚¤ãƒ³èªž    J -> æ—¥æœ¬èªž     \n");
+        printf("F -> ãƒ•ãƒ©ãƒ³ã‚¹èªž   E -> è‹±èªž      \n");
+        printf("B -> æˆ»ã‚‹                                         \n");
 
 
 
@@ -404,7 +403,7 @@ void main_menu_french(){
         printf("                        BitRun                     \n ");
         printf("##################################################\n");
         printf("                       Bienvenue                    \n");
-        printf("E -> Démarrer                      I -> Instuctions\n ");
+        printf("E -> DÃ©marrer                      I -> Instuctions\n ");
         printf("L -> Lengues                     S -> Sortie       \n");
 
 
@@ -437,9 +436,9 @@ void menu_languages_spanish(){
 
         printf("##################################################\n");
         printf("           Por favor seleccione un lenguage          \n");
-        printf("E -> Español                    J - Japons\n");
-        printf("F -> Francés                    I -> Inglés   \n");
-        printf("A -> Atrás                                         \n");
+        printf("E -> EspaÃ±ol                    J - Japons\n");
+        printf("F -> FrancÃ©s                    I -> InglÃ©s   \n");
+        printf("A -> AtrÃ¡s                                         \n");
 
 
 
@@ -471,9 +470,9 @@ void menu_languages_french(){
         char answer;
 
         printf("##################################################\n");
-        printf("        S'il vous plaît sélectionner une langue          \n");
+        printf("        S'il vous plaÃ®t sÃ©lectionner une langue          \n");
         printf("E -> Espagnol                    J -Japonais\n");
-        printf("F -> Français                   A -> Anglais   \n");
+        printf("F -> FranÃ§ais                   A -> Anglais   \n");
         printf("V -> Verso                                         \n");
 
 
@@ -522,12 +521,12 @@ void menu_instruction_english(){
 
 void menu_instruction_japanese(){
 	printf("########################################################\n");
-        printf("              インストラクション                    \n");
-        printf("コントロール: アローキース\n");
-        printf("右と左のアローキースを使って障害を避ける\n");
-        printf("このゲームはタイマーがあるからそれはプレヤーのスコアです\n");
-        printf("障害を触ったらゲームは終わる\n");
-        printf("B をプレスして戻る.\n");
+        printf("              ã‚¤ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚·ãƒ§ãƒ³                    \n");
+        printf("ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ«: ã‚¢ãƒ­ãƒ¼ã‚­ãƒ¼ã‚¹\n");
+        printf("å³ã¨å·¦ã®ã‚¢ãƒ­ãƒ¼ã‚­ãƒ¼ã‚¹ã‚’ä½¿ã£ã¦éšœå®³ã‚’é¿ã‘ã‚‹\n");
+        printf("ã“ã®ã‚²ãƒ¼ãƒ ã¯ã‚¿ã‚¤ãƒžãƒ¼ãŒã‚ã‚‹ã‹ã‚‰ãã‚Œã¯ãƒ—ãƒ¬ãƒ¤ãƒ¼ã®ã‚¹ã‚³ã‚¢ã§ã™\n");
+        printf("éšœå®³ã‚’è§¦ã£ãŸã‚‰ã‚²ãƒ¼ãƒ ã¯çµ‚ã‚ã‚‹\n");
+        printf("B ã‚’ãƒ—ãƒ¬ã‚¹ã—ã¦æˆ»ã‚‹.\n");
 
         while(1){
         switch(getchar()){
@@ -545,8 +544,8 @@ void menu_instruction_spanish(){
         printf("                        Instrucciones                    \n");
         printf("Controles: Flechas");
         printf("Evita los obstaculos usando las flechas para moverte hacia los lados.\n");
-        printf("La puntuaci�n� sera determinada por el reloj del juego\n");
-        printf("Si tocas a un obstaculo, el juego terminará.\n");
+        printf("La puntuaciÃn³ sera determinada por el reloj del juego\n");
+        printf("Si tocas a un obstaculo, el juego terminarÃ¡.\n");
         printf("Oprima B para regresar.\n");
 
         while(1){
@@ -563,9 +562,9 @@ void menu_instruction_spanish(){
 void menu_instruction_french(){
 	 printf("########################################################\n");
         printf("                        Instructions                    \n");
-        printf("contrôles:flèches");
-        printf("éviter les obstacles et utilisez les flèches pour se déplacer.\n");
-        printf("Le score sera déterminé par la minuterie.\n");
+        printf("contrÃ´les:flÃ¨ches");
+        printf("Ã©viter les obstacles et utilisez les flÃ¨ches pour se dÃ©placer.\n");
+        printf("Le score sera dÃ©terminÃ© par la minuterie.\n");
         printf("Si vous touchez un obstacle le jeu se terminera.\n");
         printf("Appuyez sur B pour revenir.\n");
 
